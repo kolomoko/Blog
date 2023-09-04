@@ -1,0 +1,20 @@
+/* shamelessly copied from https://chriswere.neocities.org/ */
+@media only screen {
+  body {
+    /* background: #222; */
+		background: linear-gradient(#000063, #000000);
+    color: #fff;
+    font: 1.2em "Liberation Sans", sans-serif;}
+  a {
+    color: #0f7;}
+}
+
+/* nav buttons */
+div.nav{
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	text-align: center;
+	border: solid #888888 1px;
+	border-right: none;
+	border-left: none
+}
